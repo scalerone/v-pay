@@ -2,7 +2,7 @@
   "name": "vue-zfb-password",
   "version": "1.0.0",
   "description": "仿某宝支付密码弹窗",
-  "author": "LiuShunLi <1563940776@qq.como>",
+  "author": "mrwho",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "vpay": "^1.0.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
